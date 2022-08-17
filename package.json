@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve --port 8080",
     "build": "ng build",
+    "Gbuild": "ng build --aot --prod --base-href=/profile-angular/",
+    "GupLoad": "npx ngh --dir=dist/my-web --no-silent",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
