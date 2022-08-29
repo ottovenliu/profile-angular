@@ -6,15 +6,21 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './core/home-page/home-page.component';
 /**PrimeNG*/
 import { AccordionModule } from 'primeng/accordion';     //accordion and accordion tab
-import { MenuItem } from 'primeng/api';                  //api
+import { MenuItem } from 'primeng/api';        //api
+
+/**Feature*/
+import { ProfileModule } from './feature/profile/profile.module';
+
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AccordionModule,
+
 
   ],
   providers: [],

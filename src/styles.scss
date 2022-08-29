@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+// @import "./assets/sass/plugin/primeNg/primeNg.scss";
+@import "./assets/css/bootstrap.min.css";
+a {
+  color: #000;
+  &:hover {
+    color: #000;
+  }
+}
+#content {
+  padding: 10px 14px;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+.imgBox {
+  width: 100%;
+  min-height: 20rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+}
+.imgBox.LHK {
+  background-image: url("./assets/image/螢幕擷取畫面2022-08-29222254.png");
+}
+.imgBox.tokiya {
+  background-image: url("./assets/image/螢幕擷取畫面2022-08-29222416.png");
+}
+.imgBox.Cathay {
+  background-image: url("./assets/image/新聞照1-e1657180290534.jpg");
+}
+.imgBox.fubon {
+  min-height: 30rem;
+  background-image: url("./assets/image/螢幕擷取畫面2022-08-29230023.png");
+}
+.imgBox.KYW {
+  min-height: 50rem;
+  background-image: url("./assets/image/螢幕擷取畫面2022-08-29232107.png");
+}
